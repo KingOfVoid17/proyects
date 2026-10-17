@@ -1,17 +1,12 @@
 """
-===============================================================================
-HEADER / COVER
-===============================================================================
+Portada
 Nombre:Roman Francisco Sanchez Gomez
 Matricula:2630012
 Group: I-M 1-2
-===============================================================================
 """
 
 """
-===============================================================================
 EXECUTIVE SUMMARY
-===============================================================================
 In Python, integer (int) and floating-point (float) data types differ in precision 
 and intent: int is used to count discrete elements, whereas float represents 
 continuous numerical values and measurements with decimals. A boolean (bool) 
@@ -20,13 +15,10 @@ comparisons and logical operations. Validating input data and ranges is critical
 to prevent execution errors such as division by zero or processing physically 
 impossible values. This document provides solutions to 6 practical problems 
 utilizing type casting, logical operators, relational comparisons, and formatted outputs.
-===============================================================================
 """
 
 """
-===============================================================================
 PRINCIPLES AND BEST PRACTICES
-===============================================================================
 1. Appropriate Type Selection: Use int for counters/choices and float for financial, 
    temperature, or physical body metrics.
 2. Code Clarity & Reuse: Store intermediate calculation results in variables with 
@@ -36,7 +28,6 @@ PRINCIPLES AND BEST PRACTICES
 4. Clear Output Messages: Display readable console output in Spanish.
 5. Boolean Interpretation: Ensure True/False flags accurately reflect the 
    evaluated logical state.
-===============================================================================
 """
 
 
@@ -459,9 +450,7 @@ else:
 
 
 """
-===============================================================================
 CONCLUSIONS
-===============================================================================
 Combining integer (int) and floating-point (float) data types enables precise 
 modeling of both discrete and continuous domain quantities in software engineering. 
 Generating boolean flags through relational comparisons and logical operators 
@@ -469,13 +458,10 @@ Generating boolean flags through relational comparisons and logical operators
 Validating input values is essential to safeguard application stability by avoiding 
 unhandled exceptions like division by zero or domain-invalid inputs. These logical 
 patterns form the core foundations for developing real-world automated systems.
-===============================================================================
 """
 
 """
-===============================================================================
 REFERENCES
-===============================================================================
 1) Python Software Foundation. (2024). Built-in Types: Numeric Types — int, float. 
    Python Documentation. https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
 2) Python Software Foundation. (2024). Boolean Values — bool. 
@@ -484,5 +470,4 @@ REFERENCES
    Python Documentation. https://docs.python.org/3/library/functions.html
 4) Sweigart, A. (2019). Automate the Boring Stuff with Python: Practical Programming for Total Beginners. No Starch Press.
 5) Severance, C. (2016). Python for Everybody: Exploring Data in Python 3. CreateSpace Independent Publishing Platform.
-===============================================================================
 """
